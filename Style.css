@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 20px #d9d9d9, -20px -20px 60px #d9d9d9;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+.display{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+button{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.start{
+    background-color: aqua;
+    color: white;
+}
+
+.stop{
+    background-color: violet;
+    color: white;
+}
+
+.reset{
+    background-color: orange;
+    color: white;
+}
+
+
+
+
+
